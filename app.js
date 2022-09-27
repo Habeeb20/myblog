@@ -43,6 +43,20 @@ app.get('/fintech', (req, res, next) => {
     res.render("fintech.ejs")
 });
 
+
+
+
+app.get('/product1', (req, res, next) => {
+    res.render("product1.ejs")
+});
+
+
+app.get('/product2', (req, res, next) => {
+    res.render("product2.ejs")
+});
+
+
+
 app.get('/contactus', (req, res, next) => {
     res.render("contactus.ejs")
 });
